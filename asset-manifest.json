@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Max-Phlistin-Portfolio/static/css/main.e2cc285b.css",
+    "main.js": "/Max-Phlistin-Portfolio/static/js/main.f714656d.js",
+    "static/media/portfolio-img2.png": "/Max-Phlistin-Portfolio/static/media/portfolio-img2.d80e3fc7e2231cffbbd7.png",
+    "static/media/portfolio-img3.png": "/Max-Phlistin-Portfolio/static/media/portfolio-img3.e2bf250541b961cca642.png",
+    "static/media/site-bg.jpg": "/Max-Phlistin-Portfolio/static/media/site-bg.54724d703024833ef9c6.jpg",
+    "static/media/portfolio-img1.png": "/Max-Phlistin-Portfolio/static/media/portfolio-img1.65b23e5c313b18600f24.png",
+    "static/media/services.png": "/Max-Phlistin-Portfolio/static/media/services.8e66d4fbbd95de45b8db.png",
+    "static/media/hero.png": "/Max-Phlistin-Portfolio/static/media/hero.9f15325036525d98ad4b.png",
+    "static/media/aboute.png": "/Max-Phlistin-Portfolio/static/media/aboute.1cf597195d9de03bee40.png",
+    "index.html": "/Max-Phlistin-Portfolio/index.html",
+    "main.e2cc285b.css.map": "/Max-Phlistin-Portfolio/static/css/main.e2cc285b.css.map",
+    "main.f714656d.js.map": "/Max-Phlistin-Portfolio/static/js/main.f714656d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2cc285b.css",
+    "static/js/main.f714656d.js"
+  ]
+}
