@@ -24,7 +24,7 @@ const Contact = () => {
                                 Let's work <br /> together
                             </h2>
                             <motion.div
-                                variants={fadeIn('up', 0.7)}
+                                variants={fadeIn('left', 0.7)}
                                 initial="hidden"
                                 whileInView={'show'}
                                 viewport={{ once: false, amount: 0.7 }}

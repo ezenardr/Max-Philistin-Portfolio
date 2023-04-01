@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <header className="h-screen relative" id="header">
             <Banner />
-            <div className="w-[90%] absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] md:flex items-center md:gap-4">
+            <div className="w-[90%] absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-60%] md:translate-x-[-50%] md:flex items-center md:gap-4">
                 <div className=" text-center md:text-left md:w-[80%] lg:w-[65%]">
                     <motion.h1
                         variants={fadeIn('up', 0.3)}
@@ -57,9 +57,10 @@ const Header = () => {
                         className="pb-6 text-slate-400 tracking-wide lg:text-xl"
                     >
                         En tant que photographe, je veux que mes photos
-                        imaginent une image audacieuse, monde passionnant - un
-                        monde dans lequel le sujet, qu'il s'agisse d'un produit
-                        ou une personne, se démarque, rayonne.
+                        réflètent une image faramineuse car c'est un monde
+                        passionnant et pleins de couleur à travers lequel le
+                        produit ou la personne rayonne et se démarque. Une
+                        journée sans photo est une journée perdue.
                     </motion.p>
                     <motion.div
                         variants={fadeIn('up', 0.6)}
