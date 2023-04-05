@@ -1,23 +1,16 @@
 import React from 'react';
-// components
-// import Banner from './components/Banner';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import About from './components/About';
-import Services from './components/Services';
-import Work from './components/Work';
-import Contact from './components/Contact';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Gallery from './pages/Gallery';
+import Error from './pages/Error';
 
 const App = () => {
     return (
-        <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
-            <Header />
-            <Nav />
-            <About />
-            <Services />
-            <Work />
-            <Contact />
-        </div>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="*" element={<Error />} />
+        </Routes>
     );
 };
 

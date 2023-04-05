@@ -4,6 +4,7 @@ import { fadeIn } from '../variants';
 import img1 from '../assets/portfolio-img1.png';
 import img2 from '../assets/portfolio-img2.png';
 import img3 from '../assets/portfolio-img3.png';
+import { Link as RouterLink } from 'react-router-dom';
 const Work = () => {
     return (
         <section className="section h-full" id="work">
@@ -27,9 +28,11 @@ const Work = () => {
                                 pour comprendre votre vision et livrer des
                                 images parfaites.
                             </p>
-                            <button className="btn btn-sm">
-                                View All Projects
-                            </button>
+                            <RouterLink to={'/gallery'}>
+                                <button className="btn btn-sm">
+                                    View All Projects
+                                </button>
+                            </RouterLink>
                         </div>
                         <div className=" group relative overflow-hidden border-2 border-white/50 rounded-xl">
                             <div className=" group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -39,9 +42,7 @@ const Work = () => {
                                 alt=""
                             />
                             <div className=" absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                                <span className=" text-gradient">
-                                    UI/UX Design
-                                </span>
+                                <span className=" text-gradient">Portrait</span>
                             </div>
                             <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                                 <span className=" text-3xl text-white">
@@ -71,7 +72,7 @@ const Work = () => {
                             </div>
                             <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                                 <span className=" text-3xl text-white">
-                                    Project Title
+                                    Evènements
                                 </span>
                             </div>
                         </div>
@@ -89,7 +90,7 @@ const Work = () => {
                             </div>
                             <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                                 <span className=" text-3xl text-white">
-                                    Project Title
+                                    Photographie de produits
                                 </span>
                             </div>
                         </div>

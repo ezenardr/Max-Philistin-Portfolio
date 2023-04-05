@@ -1,6 +1,7 @@
 import React from 'react';
 import CountUp from 'react-countup';
 import { Link } from 'react-scroll/modules';
+import { Link as RouterLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 import { useInView } from 'react-intersection-observer';
@@ -18,7 +19,7 @@ const About = () => {
                         initial="hidden"
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.3 }}
-                        className=" bg-aboute bg-contain bg-no-repeat h-[400px] md:h-[500px] mix-blend-lighten bg-top lg:flex-1"
+                        className=" bg-about bg-contain bg-no-repeat h-[400px] md:h-[500px] mix-blend-lighten bg-top lg:flex-1"
                     ></motion.div>
                     <motion.div
                         variants={fadeIn('left', 0.5)}
@@ -116,12 +117,14 @@ const About = () => {
                             >
                                 <a href="/">Contact</a>
                             </Link>
-                            <a
-                                href="0"
-                                className="text-gradient uppercase text-lg tracking-wider"
-                            >
-                                Gallerie
-                            </a>
+                            <RouterLink to={'/gallery'}>
+                                <a
+                                    href="/"
+                                    className="text-gradient uppercase text-lg tracking-wider"
+                                >
+                                    Gallerie
+                                </a>
+                            </RouterLink>
                         </motion.div>
                     </motion.div>
                 </div>

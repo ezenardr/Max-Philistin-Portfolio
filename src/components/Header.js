@@ -2,6 +2,7 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll/modules';
+import { Link as RouterLink } from 'react-router-dom';
 import { fadeIn } from '../variants';
 import Banner from './Banner';
 import Hero from '../assets/hero.png';
@@ -78,12 +79,14 @@ const Header = () => {
                         >
                             <a href="/">Contact</a>
                         </Link>
-                        <a
-                            href="/"
-                            className="text-gradient uppercase text-lg tracking-wider"
-                        >
-                            Gallerie
-                        </a>
+                        <RouterLink to={'/gallery'}>
+                            <a
+                                href="/"
+                                className="text-gradient uppercase text-lg tracking-wider"
+                            >
+                                Gallerie
+                            </a>
+                        </RouterLink>
                     </motion.div>
                     <motion.div
                         variants={fadeIn('up', 0.7)}
