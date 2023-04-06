@@ -17,7 +17,7 @@ const Error = () => {
                                 The page you are looking for it maybe deleted
                             </p>
                             <a
-                                href="/Max-Philistin-Portfolio"
+                                href="/"
                                 class="hover:text-primary inline-block rounded-lg border border-white px-8 py-3 text-center text-base font-semibold text-white transition hover:bg-white"
                             >
                                 Go To Home

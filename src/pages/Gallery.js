@@ -25,7 +25,7 @@ const Gallery = () => {
             <div className="container mx-auto">
                 <div className=" container flex justify-start pb-5">
                     <RouterLink
-                        to={'/Max-Philistin-Portfolio'}
+                        to={'/'}
                         className="btn btn-sm  uppercase tracking-wide flex items-center justify-center"
                     >
                         {"Page d'acceuil "}
