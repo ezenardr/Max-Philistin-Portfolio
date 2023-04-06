@@ -1,6 +1,10 @@
 # Portfolio Website by ezenardR
 
-<img src="./src/assets/TonioPortfolio.PNG" alt="Capture from page header" title="Portfolio Preview">
+<img src="./src/assets/TonioPortfolio.PNG" alt="Capture from page header section" title="Portfolio Preview">
+<img src="./src/assets/aboutt.PNG" alt="Capture from page about section" title="Portfolio Preview">
+<img src="./src/assets/servicess.PNG" alt="Capture from page services section" title="Portfolio Preview">
+<img src="./src/assets/work.PNG" alt="Capture from page work section" title="Portfolio Preview">
+<img src="./src/assets/contact.PNG" alt="Capture from page contact section" title="Portfolio Preview">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
