@@ -37,7 +37,7 @@ const Nav = () => {
                         to="services"
                         spy={true}
                         smooth={true}
-                        offset={5}
+                        offset={0}
                         duration={500}
                     >
                         <BsClipboardData />
@@ -48,7 +48,7 @@ const Nav = () => {
                         to="work"
                         spy={true}
                         smooth={true}
-                        offset={5}
+                        offset={0}
                         duration={500}
                     >
                         <BsBriefcase />
@@ -59,7 +59,7 @@ const Nav = () => {
                         to="contact"
                         spy={true}
                         smooth={true}
-                        offset={10}
+                        offset={0}
                         duration={500}
                     >
                         <BsChatSquareText />

@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-import img1 from '../assets/portfolio-img1.png';
-import img2 from '../assets/portfolio-img2.png';
-import img3 from '../assets/portfolio-img3.png';
+import img1 from '../assets/portrait.webp';
+import img2 from '../assets/wedding-2.webp';
+import img3 from '../assets/studio-2.webp';
 import { Link as RouterLink } from 'react-router-dom';
 const Work = () => {
     return (
@@ -37,16 +37,16 @@ const Work = () => {
                         <div className=" group relative overflow-hidden border-2 border-white/50 rounded-xl">
                             <div className=" group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
                             <img
-                                className="group-hover:scale-125 transition-all duration-500"
+                                className=" group-hover:scale-125 transition-all duration-500"
                                 src={img1}
-                                alt=""
+                                alt="Studio de Photographie"
                             />
                             <div className=" absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                                 <span className=" text-gradient">Portrait</span>
                             </div>
                             <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                                 <span className=" text-3xl text-white">
-                                    Project Title
+                                    Votre lieu naturel d’expression.
                                 </span>
                             </div>
                         </div>
@@ -63,16 +63,16 @@ const Work = () => {
                             <img
                                 className="group-hover:scale-125 transition-all duration-500"
                                 src={img2}
-                                alt=""
+                                alt="Evènements de mariage"
                             />
                             <div className=" absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                                 <span className=" text-gradient">
-                                    UI/UX Design
+                                    Evènements
                                 </span>
                             </div>
                             <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                                 <span className=" text-3xl text-white">
-                                    Evènements
+                                    Marquez votre histoire
                                 </span>
                             </div>
                         </div>
@@ -81,16 +81,16 @@ const Work = () => {
                             <img
                                 className="group-hover:scale-125 transition-all duration-500"
                                 src={img3}
-                                alt=""
+                                alt="Studio de Photographe"
                             />
                             <div className=" absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                                 <span className=" text-gradient">
-                                    UI/UX Design
+                                    Photographie de produits
                                 </span>
                             </div>
                             <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                                 <span className=" text-3xl text-white">
-                                    Photographie de produits
+                                    La valeur de vos produits...
                                 </span>
                             </div>
                         </div>
