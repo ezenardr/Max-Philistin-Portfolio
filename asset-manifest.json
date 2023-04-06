@@ -1,11 +1,9 @@
 {
   "files": {
-    "main.css": "/Max-Philistin-Portfolio/static/css/main.453d302b.css",
-    "main.js": "/Max-Philistin-Portfolio/static/js/main.0c44f424.js",
-    "static/media/portfolio-img2.png": "/Max-Philistin-Portfolio/static/media/portfolio-img2.d80e3fc7e2231cffbbd7.png",
-    "static/media/portfolio-img3.png": "/Max-Philistin-Portfolio/static/media/portfolio-img3.e2bf250541b961cca642.png",
+    "main.css": "/Max-Philistin-Portfolio/static/css/main.2f5d425f.css",
+    "main.js": "/Max-Philistin-Portfolio/static/js/main.b0d561f2.js",
+    "static/media/wedding-2.webp": "/Max-Philistin-Portfolio/static/media/wedding-2.41b00e6cc2c77ac79729.webp",
     "static/media/site-bg.jpg": "/Max-Philistin-Portfolio/static/media/site-bg.54724d703024833ef9c6.jpg",
-    "static/media/portfolio-img1.png": "/Max-Philistin-Portfolio/static/media/portfolio-img1.65b23e5c313b18600f24.png",
     "static/media/lan-2.jpg": "/Max-Philistin-Portfolio/static/media/lan-2.5dab95e47f4658df5d03.jpg",
     "static/media/lan-3.jpg": "/Max-Philistin-Portfolio/static/media/lan-3.cc938e31b0160540aa6f.jpg",
     "static/media/land-1.jpg": "/Max-Philistin-Portfolio/static/media/land-1.fb81bbd8f67c062c600d.jpg",
@@ -25,12 +23,14 @@
     "static/media/TP-11.jpg": "/Max-Philistin-Portfolio/static/media/TP-11.299d53c5c8259abb59dc.jpg",
     "static/media/TP-2.jpg": "/Max-Philistin-Portfolio/static/media/TP-2.b50604e1a2efaea71072.jpg",
     "static/media/about.png": "/Max-Philistin-Portfolio/static/media/about.1cf597195d9de03bee40.png",
+    "static/media/studio-2.webp": "/Max-Philistin-Portfolio/static/media/studio-2.5805a302f897f4133288.webp",
+    "static/media/portrait.webp": "/Max-Philistin-Portfolio/static/media/portrait.8bd6e715ac745bddbbd2.webp",
     "index.html": "/Max-Philistin-Portfolio/index.html",
-    "main.453d302b.css.map": "/Max-Philistin-Portfolio/static/css/main.453d302b.css.map",
-    "main.0c44f424.js.map": "/Max-Philistin-Portfolio/static/js/main.0c44f424.js.map"
+    "main.2f5d425f.css.map": "/Max-Philistin-Portfolio/static/css/main.2f5d425f.css.map",
+    "main.b0d561f2.js.map": "/Max-Philistin-Portfolio/static/js/main.b0d561f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.453d302b.css",
-    "static/js/main.0c44f424.js"
+    "static/css/main.2f5d425f.css",
+    "static/js/main.b0d561f2.js"
   ]
 }
